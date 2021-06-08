@@ -8,6 +8,12 @@ inputs:
   handler: index.main_handler
   runtime: Python3.6
   namespace: default
-  region: ap-guangzhou
   memorySize: 128
   timeout: 3
+  region: ap-beijing
+  zone: ap-beijing-3
+  dBInstanceName: my-scf-python-6cbfe9a3
+  vpcConfig:
+    vpcId: vpc-nna7myx2
+    subnetId: subnet-ppfrjhg9
+  extranetAccess: true
