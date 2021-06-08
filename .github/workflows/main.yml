@@ -33,5 +33,5 @@ jobs:
         env:
           STAGE: test
           SERVERLESS_PLATFORM_VENDOR: tencent
-          TENCENT_SECRET_ID: ${{secrets.TENCENT_SECRET_ID}}
-          TENCENT_SECRET_KEY: ${{secrets.TENCENT_SECRET_KEY}}
+          TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
+          TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
