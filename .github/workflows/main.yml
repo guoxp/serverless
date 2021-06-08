@@ -28,7 +28,7 @@ jobs:
         run: npm install
       - name: build
         run: npm build
-      - name: deploy serverless
+      - name: deploy serverless1
         run: sls deploy --debug
         env:
           STAGE: test
